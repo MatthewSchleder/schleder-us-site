@@ -8,28 +8,10 @@
               v-if="fighter.id != null"
               :src="getSelectedFighterImage"
               :key="fighter.name"
-              @click="changeFighterAlt"
               :class="parsedNameForAssets"
               class="selected-fighter__image"
             />
           </transition>
-          <div class="alt-options" v-if="altOptionsShowing">
-            <div
-              class="alt-options__close-btn"
-              @click="setAltOptionsShowingState()"
-            >
-              X
-            </div>
-            <div class="alt-icons">
-              <img
-                :src="getStockIcon(index)"
-                @click="changeFighterAltSpecific(index)"
-                class="alt-icons__image"
-                v-for="index in [0, 1, 2, 3, 4, 5, 6, 7]"
-                :key="index"
-              />
-            </div>
-          </div>
         </div>
         <div class="fighter-info-wrapper">
           <div class="fighter-info">
@@ -47,13 +29,6 @@
               @click="openBio"
             >
               View Bio
-            </button>
-            <button
-              v-if="!isMiiOrNull"
-              class="fighter-info__btn"
-              @click="showAltOptions"
-            >
-              {{ altOptionsShowing ? 'Hide Alts' : 'Show Alts' }}
             </button>
           </div>
         </div>
@@ -74,13 +49,13 @@ export default {
       required: false,
       default: function() {
         return {
-          alt: 0,
+          // alt: 0,
           bio: null,
           franchise: 'Default',
           id: null,
           isSelected: null,
           name: '',
-          videoID: null
+          // videoID: null
         }
       }
     }

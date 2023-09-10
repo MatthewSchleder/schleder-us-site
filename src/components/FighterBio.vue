@@ -9,7 +9,6 @@
       </div>
       <div class="fighter-description">
         <p class="fighter-description__bio">{{ fighter.bio }}</p>
-        <FighterVideo :videoID="fighter.videoID" />
       </div>
     </div>
   </div>
@@ -18,11 +17,9 @@
 <script>
 import { mapActions } from 'vuex'
 import fighterAssets from '../mixins/fighterAssets'
-import FighterVideo from '../components/FighterVideo'
 
 export default {
   name: 'FigherBio',
-  components: { FighterVideo },
   props: {
     fighter: {
       type: Object,
