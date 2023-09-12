@@ -6,7 +6,7 @@
     </transition>
     <div class="mobile-instructions">
       <p class="mobile-instructions__text">
-        Select any fighter by tapping the 3 horizontal bars in the top left. Try
+        Select any Schleder by tapping the 3 horizontal bars in the top left. Try
         checking this out on a larger device!
       </p>
     </div>

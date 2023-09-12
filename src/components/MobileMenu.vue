@@ -1,7 +1,7 @@
 <template>
   <div class="mobile-menu">
     <div class="menu-heading">
-      <h2 class="menu-heading__title">SSBU Select</h2>
+      <h2 class="menu-heading__title">Schleder List</h2>
       <div class="menu-heading__close-btn" @click="setMobileMenuShowingState()">
         X
       </div>

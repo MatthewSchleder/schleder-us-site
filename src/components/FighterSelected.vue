@@ -306,7 +306,7 @@ export default {
 
   &__series-icon {
     transform: skewX(10deg);
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     width: 50%;
