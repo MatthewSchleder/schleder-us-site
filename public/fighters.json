@@ -30,5 +30,21 @@
     "id": 3,
     "name": "Jay",
     "videoID": "qdSKO-mc2n8"
+  },
+  {
+    "alt": 0,
+    "bio": "Nursing Student at Texas Tech University Health Sciences",
+    "franchise": "Texas",
+    "id": 4,
+    "name": "Courtney",
+    "videoID": "qdSKO-mc2n8"
+  },
+  {
+    "alt": 0,
+    "bio": "Case Worker at Meals on Wheels",
+    "franchise": "Texas",
+    "id": 5,
+    "name": "Lisa",
+    "videoID": "qdSKO-mc2n8"
   }
 ]
