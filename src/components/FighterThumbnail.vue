@@ -45,6 +45,7 @@ export default {
         const announcer = new Audio(
           require(`../assets/sounds/${this.parsedNameForAssets}.wav`)
         )
+        announcer.volume = 0.5
 
         announcer.play()
       } else {

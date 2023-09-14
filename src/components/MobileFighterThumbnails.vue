@@ -42,6 +42,8 @@ export default {
           require(`../assets/sounds/${this.parsedNameForAssets}.wav`)
         )
 
+        announcer.volume = 0.5
+
         announcer.play()
       } else {
         this.setSelectedFighterState('')
