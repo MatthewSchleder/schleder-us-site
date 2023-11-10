@@ -10,6 +10,32 @@
       <div class="fighter-description">
         <p class="fighter-description__bio">{{ fighter.bio }}</p>
       </div>
+      <div class="fighter-icons">
+        <a v-if="fighter.facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <awesome-social-button
+            type="facebook"
+            :link="{ src: 'https://facebook.com'}"
+            shape="square"
+            dark="true"
+          />
+        </a>
+        <a v-if="fighter.linkedin" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <awesome-social-button
+            type="linkedin"
+            :link="{ src: 'https://linkedin.com'}"
+            shape="square"
+            dark="true"
+          />
+        </a>
+        <a v-if="fighter.twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <awesome-social-button
+            type="twitter"
+            :link="{ src: 'https://twitter.com'}"
+            shape="square"
+            dark="true"
+          />
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -17,9 +43,13 @@
 <script>
 import { mapActions } from 'vuex'
 import fighterAssets from '../mixins/fighterAssets'
+import { AwesomeSocialButton } from 'awesome-social-button'
 
 export default {
   name: 'FigherBio',
+  components: {
+    AwesomeSocialButton,
+  },
   props: {
     fighter: {
       type: Object,
@@ -142,6 +172,26 @@ export default {
   align-items: center;
   padding: 20px;
   justify-content: center;
+
+  &__bio {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #e7e7e7;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    line-height: 1.25em;
+    text-shadow: 0px 0px 1px #111111, 1px 1px 1px #111111, 2px 2px 1px #111111,
+      3px 3px 1px #111111;
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.fighter-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
 
   &__bio {
     font-family: 'Roboto Condensed', sans-serif;

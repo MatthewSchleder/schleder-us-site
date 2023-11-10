@@ -5,7 +5,10 @@
     "franchise": "North Carolina",
     "id": 0,
     "name": "Matt",
-    "videoID": "qdSKO-mc2n8"
+    "videoID": "qdSKO-mc2n8",
+    "facebook": "https://www.facebook.com/matthew.schleder",
+    "twitter": "https://twitter.com/matthewschleder",
+    "linkedin": "https://www.linkedin.com/in/matthewschleder/"
   },
   {
     "alt": 0,
@@ -13,7 +16,9 @@
     "franchise": "North Carolina",
     "id": 1,
     "name": "Allison",
-    "videoID": "qdSKO-mc2n8"
+    "videoID": "qdSKO-mc2n8",
+    "facebook": "https://www.facebook.com/allison.rowe.148",
+    "linkedin": "https://www.linkedin.com/in/allison-schleder/"
   },
   {
     "alt": 0,
@@ -21,7 +26,11 @@
     "franchise": "Texas",
     "id": 2,
     "name": "Ryan",
-    "videoID": "qdSKO-mc2n8"
+    "videoID": "qdSKO-mc2n8",
+    "facebook": "https://www.facebook.com/SCHLEDERBOSS",
+    "twitter": "https://twitter.com/ryan_schleder",
+    "linkedin": "https://www.linkedin.com/in/ryanschleder/"
+
   },
   {
     "alt": 0,
@@ -29,7 +38,11 @@
     "franchise": "Texas",
     "id": 3,
     "name": "Jay",
-    "videoID": "qdSKO-mc2n8"
+    "videoID": "qdSKO-mc2n8",
+    "facebook": "https://www.facebook.com/jay.schleder",
+    "twitter": "https://twitter.com/JaySchleder",
+    "linkedin": "https://www.linkedin.com/in/jayschleder/"
+
   },
   {
     "alt": 0,
@@ -45,7 +58,9 @@
     "franchise": "Texas",
     "id": 5,
     "name": "Lisa",
-    "videoID": "qdSKO-mc2n8"
+    "videoID": "qdSKO-mc2n8",
+    "facebook": "https://www.facebook.com/lisa.schleder.7",
+    "twitter": "https://twitter.com/SchlederLisa"
   },
   {
     "alt": 0,
@@ -53,6 +68,8 @@
     "franchise": "Texas",
     "id": 5,
     "name": "Adam",
-    "videoID": "qdSKO-mc2n8"
+    "videoID": "qdSKO-mc2n8",
+    "twitter": "https://twitter.com/adam_schleder",
+    "linkedin": "https://www.linkedin.com/in/adam-schleder/"
   }
 ]
