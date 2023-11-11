@@ -11,26 +11,26 @@
         <p class="fighter-description__bio">{{ fighter.bio }}</p>
       </div>
       <div class="fighter-icons">
-        <a v-if="fighter.facebook" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <a v-if="fighter.facebook" :href=fighter.facebook target="_blank" rel="noopener noreferrer">
           <awesome-social-button
             type="facebook"
-            :link="{ src: 'https://facebook.com'}"
+            :link="{ src: fighter.facebook }"
             shape="square"
             dark="true"
           />
         </a>
-        <a v-if="fighter.linkedin" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a v-if="fighter.linkedin" :href="fighter.linkedin" target="_blank" rel="noopener noreferrer">
           <awesome-social-button
             type="linkedin"
-            :link="{ src: 'https://linkedin.com'}"
+            :link="{ src: fighter.linkedin }"
             shape="square"
             dark="true"
           />
         </a>
-        <a v-if="fighter.twitter" href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a v-if="fighter.twitter" :href=fighter.twitter target="_blank" rel="noopener noreferrer">
           <awesome-social-button
             type="twitter"
-            :link="{ src: 'https://twitter.com'}"
+            :link="{ src: fighter.twitter }"
             shape="square"
             dark="true"
           />
