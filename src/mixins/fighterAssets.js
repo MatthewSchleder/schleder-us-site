@@ -35,6 +35,11 @@ export default {
         `../assets/characters/${this.parsedNameForAssets}/selected${this.fighter.alt}-min.png`,
       )
     },
+    getSelectedResumeImage() {
+      return require(
+        `../assets/characters/${this.parsedNameForAssets}/resume.jpg`,
+      )
+    },
     getSeriesIcon() {
       return require(
         `../assets/series-icons/${this.parsedFranchiseForAssets}.png`,

@@ -9,6 +9,9 @@
       </div>
       <div class="fighter-description">
         <p class="fighter-description__bio">{{ fighter.bio }}</p>
+        <a v-if="fighter.resume" :href=fighter.resume target="_blank" rel="noopener noreferrer">
+          <img :src="getSelectedResumeImage" class="fighter-profile__resume" />
+        </a>
       </div>
       <div class="fighter-icons">
         <a v-if="fighter.facebook" :href=fighter.facebook target="_blank" rel="noopener noreferrer">
@@ -163,6 +166,10 @@ export default {
 
   &__logo {
     max-height: 150px;
+  }
+
+  &__resume {
+    max-height: 500px;
   }
 }
 
